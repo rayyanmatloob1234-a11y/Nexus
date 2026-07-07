@@ -7,7 +7,7 @@ import { Badge } from '../../components/ui/Badge';
 import { useAuth } from '../../context/AuthContext';
 import toast from 'react-hot-toast';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://starlit-fragrant-devotee.ngrok-free.dev/api';
 
 interface Meeting {
   id: string;

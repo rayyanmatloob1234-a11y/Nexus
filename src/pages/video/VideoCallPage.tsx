@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { io, Socket } from 'socket.io-client';
 import { useAuth } from '../../context/AuthContext';
 
-const SIGNALING_URL = 'http://localhost:5000';
+const SIGNALING_URL = 'https://starlit-fragrant-devotee.ngrok-free.dev';
 
 type CallStatus = 'connecting' | 'waiting' | 'connected' | 'peer-left' | 'error';
 

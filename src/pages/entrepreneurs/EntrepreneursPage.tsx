@@ -5,7 +5,7 @@ import { Card, CardHeader, CardBody } from '../../components/ui/Card';
 import { EntrepreneurCard } from '../../components/entrepreneur/EntrepreneurCard';
 import { Entrepreneur } from '../../types';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://starlit-fragrant-devotee.ngrok-free.dev/api';
 
 export const EntrepreneursPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
